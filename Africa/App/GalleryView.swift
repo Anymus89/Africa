@@ -55,7 +55,6 @@ struct GalleryView: View {
                     }// Loop
                     
                 }// Grid
-                .animation(.easeIn)
                 .onAppear {
                     gridSwitch()
                 }
